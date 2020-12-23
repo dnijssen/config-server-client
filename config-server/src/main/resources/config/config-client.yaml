@@ -1,0 +1,12 @@
+config-client:
+  test: Default
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: test
+
+config-client:
+  test: Test
